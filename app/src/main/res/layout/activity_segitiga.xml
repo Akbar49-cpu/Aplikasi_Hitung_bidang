@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SegitigaActivity"
+    android:orientation="vertical"
+    android:paddingRight="50dp"
+    android:paddingLeft="50dp"
+    android:paddingTop="35dp"
+    android:background="@drawable/o">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/menghitung_segitiga"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="28dp"
+        android:textColor="@color/bgButton"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="102dp"
+        android:textSize="18sp"
+        android:text="@string/masukkan_alas"
+        android:textColor="@color/bgButton"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_alas"
+        android:inputType="numberDecimal"
+        android:lines="1"
+        android:layout_marginTop="137dp"
+        android:textColor="@color/bgButton"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="202dp"
+        android:text="@string/masukkan_tinggi"
+        android:textColor="@color/bgButton"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_tinggi"
+        android:inputType="numberDecimal"
+        android:lines="1"
+        android:layout_marginTop="237dp"/>
+
+    <Button
+        android:id="@+id/btn_count3"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginTop="312dp"
+        android:background="@drawable/bg_hover4" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/luas_segitiga"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginTop="382dp"
+        android:textColor="@color/bgButton"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_result_7"
+        android:text="@string/hasil_luas"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginTop="382dp"
+        android:textColor="@color/bgButton"/>
+
+    </LinearLayout>
+    <TextView
+
+        android:layout_width="171dp"
+        android:layout_height="71dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/logo" />
+</RelativeLayout>

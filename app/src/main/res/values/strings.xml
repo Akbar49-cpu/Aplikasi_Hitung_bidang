@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Aplikasi Hitung Bidang</string>
+    <string name="title_menu">menu</string>
+    <string name="text_menu_1">Persegi</string>
+    <string name="text_menu_2">Lingkaran</string>
+    <string name="menghitung_lingkaran">Menghitung Lingkaran</string>
+    <string name="hitung">Hitung</string>
+    <string name="luas_lingkaran">Luas Lingkaran = </string>
+    <string name="hasil_luas"> Hasil Luas</string>
+    <string name="keliling_lingkaran">Keliling Lingkaran =</string>
+    <string name="hasil_keliling">Hasil Keliling</string>
+    <string name="masukkan_jari_jari">Masukkan Jari-jari</string>
+    <string name="menghitung_persegi">Menghitung Persegi</string>
+    <string name="masukkan_panjang">Masukkan Panjang</string>
+    <string name="masukkan_lebar">Masukkan Lebar</string>
+    <string name="luas_persegi">Luas Persegi = </string>
+    <string name="keliling_persegi">Keliling Persegi = </string>
+    <string name="menghitung_segitiga">Menghitung Segitiga</string>
+    <string name="masukkan_alas">Masukkan Alas</string>
+    <string name="masukkan_tinggi">Masukkan Tinggi</string>
+    <string name="luas">"Luas = "</string>
+    <string name="keliling">"Keliling = "</string>
+    <string name="menu">"Luas Persegi = "</string>
+    <string name="keliling_persegip">"Keliling Persegi = "</string>
+    <string name="luas_segitiga">"Luas Segitiga = "</string>
+    <string name="keliling_lingkara">"Keliling = "</string>
+    <string name="luas_l">"Luas = "</string>
+</resources>
